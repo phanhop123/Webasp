@@ -1,0 +1,11 @@
+﻿@model IEnumerable<WebProject.ViewModels.HangHoaVM>
+@{
+    ViewData["Title"] = "Search";
+    Layout = "_DanhSachHangHoa";
+}
+<div class="col-lg-9">
+    <div class="row g-4 justify-content-center">
+        @await Html.PartialAsync("ProductItem", Model)
+        
+    </div>
+</div>
