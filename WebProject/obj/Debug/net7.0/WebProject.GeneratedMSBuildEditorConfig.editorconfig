@@ -18,8 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\BTEC tài liệu\ky 5\lap trinh nang cao\WebProject\WebProject
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/BTEC tài liệu/ky 5/lap trinh nang cao/WebProject/WebProject/Views/Cart/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/BTEC tài liệu/ky 5/lap trinh nang cao/WebProject/WebProject/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTEC tài liệu/ky 5/lap trinh nang cao/WebProject/WebProject/Views/Cart/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTEC tài liệu/ky 5/lap trinh nang cao/WebProject/WebProject/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/BTEC tài liệu/ky 5/lap trinh nang cao/WebProject/WebProject/Views/HangHoa/Detail.cshtml]
@@ -74,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/BTEC tài liệu/ky 5/lap trinh nang cao/WebProject/WebProject/Views/Shared/_Copyright.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db3B5cmlnaHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/BTEC tài liệu/ky 5/lap trinh nang cao/WebProject/WebProject/Views/Shared/_DanhSachHangHoa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYW5oU2FjaEhhbmdIb2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -84,6 +100,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/BTEC tài liệu/ky 5/lap trinh nang cao/WebProject/WebProject/Views/Shared/_Layout1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTEC tài liệu/ky 5/lap trinh nang cao/WebProject/WebProject/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTEC tài liệu/ky 5/lap trinh nang cao/WebProject/WebProject/Views/Shared/_PartiaSudeBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFTdWRlQmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/BTEC tài liệu/ky 5/lap trinh nang cao/WebProject/WebProject/Views/Shared/_ValidationScriptsPartial.cshtml]

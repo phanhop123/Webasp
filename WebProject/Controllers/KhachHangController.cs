@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 
-namespace WebProject.Controllers
+namespace ECommerceMVC.Controllers
 {
     public class KhachHangController : Controller
     {
@@ -70,7 +70,7 @@ namespace WebProject.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> DangNhap(LoginVM model, string? ReturnUrl)
+        public async Task<IActionResult> DangNhap(LoginVM model, string? ReturnUrl, bool BGD)
         {
             ViewBag.ReturnUrl = ReturnUrl;
             if (ModelState.IsValid)
@@ -97,10 +97,10 @@ namespace WebProject.Controllers
                             var claims = new List<Claim> {
                                 new Claim(ClaimTypes.Email, khachHang.Email),
                                 new Claim(ClaimTypes.Name, khachHang.HoTen),
-                                new Claim("CustomerID", khachHang.MaKh),
+                                new Claim(MySetting.CLAIM_CUSTOMERID, khachHang.MaKh),
 
 								//claim - role động
-								new Claim(ClaimTypes.Role, "Customer")
+								new Claim(ClaimTypes.Role, BGD? "Customer":"Admin" )
                             };
 
                             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
